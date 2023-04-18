@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgba(255, 230, 179, 0.5);
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 45px;
+    background-image: url("../image/background-cameraо1.jpg");
+    
+}
+h1, h2 {
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    padding-top: 30px;
+}
+.regie{
+    border-bottom: 1px solid rgb(51, 13, 2);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.regie__name{
+    padding-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 24px;
+}
+.regie__content{
+    display: flex;
+    justify-content: space-between;
+}
+.regie__text, .regie__films{
+    padding-left: 45px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 18px;
+}
+.regie__films a{
+    color:black;
+    cursor: pointer;
+}
+.films{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
